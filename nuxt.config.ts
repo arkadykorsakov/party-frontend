@@ -6,6 +6,7 @@ export default defineNuxtConfig({
       'nuxt-icon',
       '@nuxtjs/color-mode',
       '@nuxtjs/eslint-module',
+      '@nuxtjs/html-validator',
       [
          '@nuxtjs/google-fonts',
          {

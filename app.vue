@@ -1,5 +1,11 @@
+<script setup lang="ts">
+useHead({
+   titleTemplate: (title) => `${title} - Party`
+})
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+   <NuxtLayout>
+      <NuxtPage />
+   </NuxtLayout>
 </template>

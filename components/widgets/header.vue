@@ -11,7 +11,7 @@
                >
             </NuxtLink>
             <div class="flex items-center lg:order-2">
-               <TheColorModeButton />
+               <FeaturesSwitcherTheme />
                <NuxtLink v-slot="{ navigate }" to="/" custom>
                   <UButton
                      class="mx-2"
